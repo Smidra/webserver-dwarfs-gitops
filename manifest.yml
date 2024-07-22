@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: red-dwarf
-        image: smidra/red-dwarf
+        image: smidra/yellow-dwarf
         ports:
         - containerPort: 80
       terminationGracePeriodSeconds: 4
