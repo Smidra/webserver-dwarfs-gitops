@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: blue-dwarf
+  name: red-dwarf
   labels:
     app: webserver-dwarf
 spec:
@@ -15,8 +15,8 @@ spec:
         app: webserver-dwarf
     spec:
       containers:
-      - name: blue-dwarf
-        image: smidra/blue-dwarf
+      - name: red-dwarf
+        image: smidra/red-dwarf
         ports:
         - containerPort: 80
       terminationGracePeriodSeconds: 4
